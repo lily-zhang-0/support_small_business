@@ -41,8 +41,6 @@ Started sketching and prototyping the smallest screen first.
 
 ## Authors
 
-* **Zhong Liu** - *Initial work* 
-
 ## License
 
 This project is licensed under the MIT License.
