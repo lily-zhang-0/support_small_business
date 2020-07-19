@@ -1,0 +1,8 @@
+li {
+  padding-bottom: 10px;
+  color: orange;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+li:hover { color: green; }

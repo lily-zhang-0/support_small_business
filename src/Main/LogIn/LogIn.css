@@ -1,0 +1,36 @@
+.login-form {
+  width: 100%;
+  text-align: center;
+}
+
+.login-form input {
+  font-size: 1em;
+  width: 200px;
+  padding: 12px 20px;
+  margin: 8px 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.login-form button {
+  font-size: 1em;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+}
+
+.login-form p {
+  color: red;
+  margin: 0;
+}
+
+@media screen and (min-width: 1200px) {
+  
+  .login-form input { width: 350px; }
+  
+}

@@ -1,0 +1,10 @@
+.HomePage {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.content { flex: 1 0 auto; }

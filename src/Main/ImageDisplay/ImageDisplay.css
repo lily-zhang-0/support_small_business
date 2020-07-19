@@ -1,0 +1,41 @@
+.image-display {
+  margin: 0 auto;
+  text-align: center; 
+  width: 100%;
+  display: block;
+  overflow-x: hidden; 
+  overflow-y: auto; 
+  border: 1px solid orange;
+  margin-top: 15px;
+}
+
+.image-display img {
+  text-align: center; 
+  max-width: 100%;
+}
+
+.image-display p {
+  font-size: 1em;
+  color: green;
+}
+
+.image-display p:first-of-type { margin-bottom: 0; }
+
+.image-display p:nth-child(2) {
+  color: orange;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 1200px) {
+  
+  .image-display {
+    margin-top: 0;
+    margin-left: 30px;
+    width: 60%;
+    padding: 15px;
+    height: 600px;
+    max-height: 600px;
+  }
+  
+  .image-display img { max-width: 550px; }
+}

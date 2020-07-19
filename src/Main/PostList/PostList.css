@@ -1,0 +1,22 @@
+.list {
+  width: 100%;
+  overflow-x: hidden; 
+  overflow-y: auto; 
+  border: 1px solid orange;
+}
+
+.list ul {
+  list-style-type:none;
+  text-align: right;
+  padding-left: 15px;
+}
+
+@media screen and (min-width: 1200px) {
+  
+  .list {
+    height: 630px;
+    max-height: 630px;
+    width: 40%;
+  }
+  
+}
